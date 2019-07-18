@@ -116,6 +116,22 @@
           }
         }
       }
+    },
+    "shared": {
+      "projectType": "library",
+      "root": "libs/shared",
+      "sourceRoot": "libs/shared/src",
+      "prefix": "intellijweb400025",
+      "architect": {
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": ["libs/shared/tsconfig.lib.json"],
+            "exclude": ["**/node_modules/**", "!libs/shared/**"]
+          }
+        }
+      },
+      "schematics": {}
     }
   },
   "cli": {
