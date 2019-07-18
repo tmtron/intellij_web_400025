@@ -1,5 +1,5 @@
 {
-  "npmScope": "intellij-web-400025",
+  "npmScope": "intellijweb400025",
   "implicitDependencies": {
     "angular.json": "*",
     "package.json": "*",
