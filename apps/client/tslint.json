@@ -1,0 +1,7 @@
+{
+  "extends": "../../tslint.json",
+  "rules": {
+    "directive-selector": [true, "attribute", "intellijweb400025", "camelCase"],
+    "component-selector": [true, "element", "intellijweb400025", "kebab-case"]
+  }
+}
